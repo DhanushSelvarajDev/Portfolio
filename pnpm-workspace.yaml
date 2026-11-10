@@ -3,3 +3,13 @@ pmOnFail: ignore
 minimumReleaseAgeExclude:
   - '@next/*'
   - next
+
+allowBuilds:
+  esbuild: true
+  workerd: true
+  sharp: true
+
+onlyBuiltDependencies:
+  - esbuild
+  - workerd
+  - sharp

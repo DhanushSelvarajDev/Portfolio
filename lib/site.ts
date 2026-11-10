@@ -1,5 +1,5 @@
-// Set NEXT_PUBLIC_SITE_URL in Vercel env vars to your real domain.
-export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL ?? 'https://dhanush-portfolio.vercel.app').replace(/\/$/, '')
+// Set NEXT_PUBLIC_SITE_URL in the hosting env vars to your real domain.
+export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL ?? 'https://dhanush-s-full-stack-engineer-pages.pages.dev').replace(/\/$/, '')
 
 export const SITE = {
   name: 'Dhanush S',
