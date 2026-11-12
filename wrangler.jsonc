@@ -2,6 +2,6 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   // Cloudflare Pages project name -> https://dhanush-s-full-stack-engineer.pages.dev
   "name": "dhanush-s-full-stack-engineer",
-  "pages_build_output_dir": "./out",
+  "pages_build_output_dir": "./dist",
   "compatibility_date": "2026-11-01"
 }

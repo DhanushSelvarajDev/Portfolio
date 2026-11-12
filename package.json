@@ -7,7 +7,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "deploy:pages": "next build && wrangler pages deploy out --project-name=dhanush-s-full-stack-engineer"
+    "deploy:pages": "next build && wrangler pages deploy"
   },
   "dependencies": {
     "@base-ui/react": "^1.5.0",
